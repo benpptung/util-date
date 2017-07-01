@@ -1,0 +1,27 @@
+{
+  "name": "util-date",
+  "version": "1.0.0",
+  "description": "Some basic date/ts manipuation operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benpptung/util-date.git"
+  },
+  "keywords": [
+    "date",
+    "timestamp"
+  ],
+  "author": "Ben P.P. Tung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benpptung/util-date/issues"
+  },
+  "homepage": "https://github.com/benpptung/util-date#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.4.5"
+  }
+}
