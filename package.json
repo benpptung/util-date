@@ -4,6 +4,7 @@
   "description": "Some basic date/ts manipuation operations",
   "main": "index.js",
   "scripts": {
+    "eslint": "TIMING=1 eslint . --ignore-pattern node_modules/",
     "test": "mocha test"
   },
   "repository": {
@@ -21,7 +22,13 @@
   },
   "homepage": "https://github.com/benpptung/util-date#readme",
   "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-plugin-node": "^5.1.1",
     "expect.js": "^0.3.1",
     "mocha": "^2.4.5"
-  }
+  },
+  "eslintIgnore": [
+    "test/**/*.*",
+    "trial/**/*.*"
+  ]
 }
