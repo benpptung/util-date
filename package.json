@@ -1,26 +1,16 @@
 {
   "name": "util-date",
-  "version": "1.0.0",
   "description": "Some basic date/ts manipuation operations",
-  "main": "index.js",
-  "scripts": {
-    "eslint": "TIMING=1 eslint . --ignore-pattern node_modules/",
-    "test": "mocha test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/benpptung/util-date.git"
-  },
-  "keywords": [
-    "date",
-    "timestamp"
-  ],
+  "version": "1.0.0",
   "author": "Ben P.P. Tung",
-  "license": "MIT",
+  "browserify": {
+    "transform": [
+      "transforms"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/benpptung/util-date/issues"
   },
-  "homepage": "https://github.com/benpptung/util-date#readme",
   "devDependencies": {
     "eslint": "^4.5.0",
     "eslint-config-less": "github:benpptung/eslint-config-less",
@@ -31,5 +21,23 @@
   "eslintIgnore": [
     "test/**/*.*",
     "trial/**/*.*"
-  ]
+  ],
+  "homepage": "https://github.com/benpptung/util-date#readme",
+  "keywords": [
+    "date",
+    "timestamp"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benpptung/util-date.git"
+  },
+  "scripts": {
+    "eslint": "TIMING=1 eslint . --ignore-pattern node_modules/",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "transforms": "^0.1.4"
+  }
 }
